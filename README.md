@@ -1,11 +1,11 @@
-# 🏥 SympAI: Disease Predictor Chatbot
+# SympAI: Disease Predictor Chatbot
 
 SympAI is an AI-powered chatbot that predicts possible diseases based on symptoms 
 described in plain, natural language. Built entirely in Python, it runs fully 
 offline — no internet connection needed for core prediction.
 
 
-## 💬 How It Works
+## How It Works
 
 Describe your symptoms naturally — for example:
 > *"I have fever, headache and feel very weak"*
@@ -19,7 +19,7 @@ Predictions strengthen as you describe more symptoms:
 - 7+ symptoms → Full assessment with top 3
 
 
-## ⚠️ Limitations
+## Limitations
 
 - Predicts **41 diseases only** based on the available Kaggle dataset
 - Recognises **131 unique symptoms** — others may not be identified
@@ -27,14 +27,10 @@ Predictions strengthen as you describe more symptoms:
 - Not clinically validated — for health awareness only
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python, scikit-learn, pandas, numpy
 - Random Forest Classifier — **97%+ accuracy**
 - RapidFuzz for symptom matching
 - Google Gemini API via OpenAI SDK
 - Streamlit for web interface
-
----
-
-## 🚀 Run Locally
