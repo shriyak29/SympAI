@@ -1,5 +1,32 @@
+# API Key — never push this
 .env
 .streamlit/secrets.toml
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Mac files
 .DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Byte-compiled
+*.so
